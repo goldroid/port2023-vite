@@ -18,6 +18,8 @@
     white-space: nowrap;
     text-indent: -0.5vw;
     letter-spacing: -0.3vw;
+ 
+    
 }
 .intro__text {
     width: 100%;
@@ -58,11 +60,12 @@
     transition: all 0.3s;
 }
 
+
 .intro__text:hover .text{
     opacity: 0;
     
 }
-.intro__text:hover .img{
+.intro__text:hover .img {
     filter: grayscale(0);
 }
 
